@@ -1,7 +1,9 @@
 package com.mmall.pojo;
 
 import java.util.Date;
-
+/**
+ * 用户
+ */
 public class User {
     private Integer id;
 

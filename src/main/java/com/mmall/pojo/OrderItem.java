@@ -2,7 +2,9 @@ package com.mmall.pojo;
 
 import java.math.BigDecimal;
 import java.util.Date;
-
+/**
+ * 订单明细商品
+ */
 public class OrderItem {
     private Integer id;
 

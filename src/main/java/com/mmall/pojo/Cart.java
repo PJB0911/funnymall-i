@@ -2,6 +2,9 @@ package com.mmall.pojo;
 
 import java.util.Date;
 
+/**
+ * 购物车
+ */
 public class Cart {
     private Integer id;
 
