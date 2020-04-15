@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## MALL（funny商城）
 一个基于SSM架构的电商项目（后端部分）,参考[慕课网](https://coding.imooc.com/)
 
@@ -177,3 +178,6 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - [门户订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_订单模块.md)
 - [后台订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/后台接口/后台_订单模块.md)
 - [门户支付模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_支付模块.md)
+=======
+网上商城
+>>>>>>> 516ed46294cd98ce7dd3fbbbb7e3750a363b059b
