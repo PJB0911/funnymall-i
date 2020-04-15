@@ -42,7 +42,7 @@
 #### （一）开发环境及配置
 
 **vsftpd服务器搭建**
-项目中使用vsftpd搭建一个ftp服务器，存放产品的主图（mainImage）、子图（subImages）以及扫码支付过程中生成的订单二维码，前端通过访问该ftp服务器，拿到对应的产品图片及支付订单二维码，进行相应显示、回调。
+项目中使用vsftpd搭建一个ftp服务器，通过springmvc上传图片到tomcat容器然后再上传到ftp服务器，用于存放产品的主图（mainImage）、子图（subImages）以及扫码支付过程中生成的订单二维码，前端通过访问该ftp服务器，拿到对应的产品图片及支付订单二维码，进行相应显示、回调。
 
 vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875 
 
@@ -178,6 +178,3 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - [门户订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_订单模块.md)
 - [后台订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/后台接口/后台_订单模块.md)
 - [门户支付模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_支付模块.md)
-=======
-网上商城
->>>>>>> 516ed46294cd98ce7dd3fbbbb7e3750a363b059b
