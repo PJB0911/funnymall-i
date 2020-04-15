@@ -29,7 +29,7 @@
 
 ### 参考资料
 - 项目中使用到的配置文件、sql语句等 [参考文件](https://github.com/PJB0911/funnymall/tree/master/参考文件)
-- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/PJB0911/funnymall/blob/master/参考文件/tlmall.postman_collection.json)
+- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/PJB0911/funnymall/blob/master/参考文件/mmall.restlet.json.json)
 
 ### 接口文档
 
@@ -54,9 +54,9 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 
 在nginx安装目录的conf下新建一个vhost目录，并且在默认的配置文件nginx.conf中加入：include vhost/*.conf，在vhost目录下创建两个配置文件：
 
-域名映射参考配置文件: [www.funnymall.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/www.sherman.fun.conf)
+域名映射参考配置文件: [www.funnymall.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/www.funnymall.com.conf)
 
-本地目录转发参考配置文件: [img.funny.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/image.sherman.fun.conf)
+本地目录转发参考配置文件: [img.funny.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/img.funnymall.com.conf)
 
 **内网穿透工具natapp**
 支付宝支付模块中，对订单二维码扫描支付时，支付宝会回调对应的回调接口，可以采用远程debug方式或者使用内网穿透，本项目使用内网穿透。
@@ -84,7 +84,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 其它项目配置包括Centos7上配置JDK、MySQL、Maven等，参考相关教程
 
 #### （二）数据库表设计
-数据库表对应sql文件参考： [mall.sql](https://github.com/PJB0911/funnymall/blob/master/参考文件/tlmall.sql)
+数据库表对应sql文件参考： [mall.sql](https://github.com/PJB0911/funnymall/blob/master/参考文件/mall.sql)
 
 #### （三）用户模块
 **目标**
