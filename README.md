@@ -28,12 +28,12 @@
 - 支付宝SDK&Demo：项目依赖的支付宝SDK [下载地址](https://docs.open.alipay.com/54/103419/) 
 
 ### 参考资料
-- 项目中使用到的配置文件、sql语句等 [参考文件](https://github.com/tanglei302wqy/tlmall-springboot/tree/master/参考文件)
-- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/参考文件/tlmall.postman_collection.json)
+- 项目中使用到的配置文件、sql语句等 [参考文件](https://github.com/PJB0911/funnymall/tree/master/参考文件)
+- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/PJB0911/funnymall/blob/master/参考文件/tlmall.postman_collection.json)
 
 ### 接口文档
 
-所有接口均使用Restlet Client测试通过，具体 [接口文档](https://github.com/tanglei302wqy/tlmall-springboot/tree/master/接口文档)
+所有接口均使用Restlet Client测试通过，具体 [接口文档](https://github.com/PJB0911/funnymall/tree/master/接口文档)
 
 ### 项目总结
 
@@ -45,7 +45,7 @@
 
 vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875 
 
-项目中vsftpd配置文件参考： [vsftpd.conf](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/参考文件/vsftpd.conf)
+项目中vsftpd配置文件参考： [vsftpd.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/vsftpd.conf)
 
 **nginx：域名映射和本地目录转发**
 
@@ -54,9 +54,9 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 
 在nginx安装目录的conf下新建一个vhost目录，并且在默认的配置文件nginx.conf中加入：include vhost/*.conf，在vhost目录下创建两个配置文件：
 
-域名映射参考配置文件: [www.funnymall.com.conf](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/参考文件/www.sherman.fun.conf)
+域名映射参考配置文件: [www.funnymall.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/www.sherman.fun.conf)
 
-本地目录转发参考配置文件: [img.funny.com.conf](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/参考文件/image.sherman.fun.conf)
+本地目录转发参考配置文件: [img.funny.com.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/image.sherman.fun.conf)
 
 **内网穿透工具natapp**
 支付宝支付模块中，对订单二维码扫描支付时，支付宝会回调对应的回调接口，可以采用远程debug方式或者使用内网穿透，本项目使用内网穿透。
@@ -84,7 +84,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 其它项目配置包括Centos7上配置JDK、MySQL、Maven等，参考相关教程
 
 #### （二）数据库表设计
-数据库表对应sql文件参考： [mall.sql](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/参考文件/tlmall.sql)
+数据库表对应sql文件参考： [mall.sql](https://github.com/PJB0911/funnymall/blob/master/参考文件/tlmall.sql)
 
 #### （三）用户模块
 **目标**
@@ -100,8 +100,8 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 获取、更新用户信息
 
 **对应接口测试文档**
-- [门户用户模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_用户模块.md)
-- [后台用户模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/后台接口/后台_用户模块.md)
+- [门户用户模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_用户模块.md)
+- [后台用户模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/后台接口/后台_用户模块.md)
 
 #### （四）分类管理模块
 **目标**
@@ -115,7 +115,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 递归获取给定分类id的所有子分类id
 
 **对应接口测试文档**
-- [后台分类管理模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/后台接口/后台_分类管理模块.md)
+- [后台分类管理模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/后台接口/后台_分类管理模块.md)
 
 #### （五）商品管理模块
 **目标**
@@ -130,8 +130,8 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 商品上下架
 
 **对应接口测试文档**
-- [门户商品管理模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_商品管理模块.md)
-- [后台商品管理模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_商品管理模块.md)
+- [门户商品管理模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_商品管理模块.md)
+- [后台商品管理模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_商品管理模块.md)
 
 ### （六）购物车模块
 **目标**
@@ -146,7 +146,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 全选、全不选购物车中商品
 
 **对应接口测试文档**
-- [门户购物车模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_购物车模块.md)
+- [门户购物车模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_购物车模块.md)
 
 ### （七）收货地址模块
 **目标**
@@ -158,7 +158,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 添加地址、删除地址、更新地址、地址分页以及地址详情
 
 **对应接口测试文档**
-- [门户收货地址模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_收货地址模块.md)
+- [门户收货地址模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_收货地址模块.md)
 
 ### （八）支付&订单模块
 **目标**
@@ -174,10 +174,7 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 - 支付宝沙箱环境扫码支付和回调接口设计已经订单支付状态查询
 
 **对应接口测试文档**
-- [门户订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_订单模块.md)
-- [后台订单模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/后台接口/后台_订单模块.md)
-- [门户支付模块](https://github.com/tanglei302wqy/tlmall-springboot/blob/master/接口文档/门户接口/门户_支付模块.md)
+- [门户订单模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_订单模块.md)
+- [后台订单模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/后台接口/后台_订单模块.md)
+- [门户支付模块](https://github.com/PJB0911/funnymall/blob/master/接口文档/门户接口/门户_支付模块.md)
 =======
-# mall
-电商项目（SSM框架）
->>>>>>> 5c65e9568c1113c4479a54cb179a52920659af7b
