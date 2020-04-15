@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## MALL（funny商城）
 一个基于SSM架构的电商项目（后端部分）,参考[慕课网](https://coding.imooc.com/)
 
