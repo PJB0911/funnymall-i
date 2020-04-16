@@ -180,4 +180,4 @@ vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875
 
 ### 后续开发
 - 开发SpringBoot版电商项目
-- Tomcat集群+Nginx负载均衡+Redis分布式
+- 架构演进:Tomcat集群+Nginx负载均衡+Redis分布式
