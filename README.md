@@ -29,7 +29,7 @@
 
 ### 参考资料
 - 项目中使用到的配置文件、sql语句等 [参考文件](https://github.com/PJB0911/funnymall/tree/master/参考文件)
-- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/PJB0911/funnymall/blob/master/参考文件/mmall.restlet.json.json)
+- Restlet Client所有测试接口导出json文件： [mall.restlet.json](https://github.com/PJB0911/funnymall/blob/master/%E5%8F%82%E8%80%83%E6%96%87%E4%BB%B6/mall.restlet.json)
 
 ### 接口文档
 
