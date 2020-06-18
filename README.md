@@ -46,6 +46,9 @@
 vsftpd服务器搭建过程参考文章：https://blog.51cto.com/andyxu/2168875 
 
 项目中vsftpd配置文件参考： [vsftpd.conf](https://github.com/PJB0911/funnymall/blob/master/参考文件/vsftpd.conf)
+Q:关于为什么要在项目中使用FTP文件服务器
+A:传统的上传一般做法是http上传，后台接收文件流，然后写入到服务器本地硬盘的某个位置。如果我们想把文件单独存放在别的服务器上，那就可以借助ftp服务器了。上传的流程则变为，http上传，后台接收文件流，通过ftp协议将流写入ftp服务器。这样即可完成文件服务器和应用服务器的分离。
+所以，使用ftp服务器的目的就是为了实现文件的单独存放。
 
 **nginx：域名映射和本地目录转发**
 
